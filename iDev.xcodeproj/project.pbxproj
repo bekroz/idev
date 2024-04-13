@@ -11,15 +11,40 @@
 		F304C9322BCA8C7B00D1F3B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304C9312BCA8C7B00D1F3B2 /* ContentView.swift */; };
 		F304C9342BCA8C7D00D1F3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F304C9332BCA8C7D00D1F3B2 /* Assets.xcassets */; };
 		F304C9382BCA8C7D00D1F3B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F304C9372BCA8C7D00D1F3B2 /* Preview Assets.xcassets */; };
+		F304C9412BCA8D5600D1F3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F304C9402BCA8D5600D1F3B2 /* LaunchScreen.storyboard */; };
+		F304C9432BCA8D6400D1F3B2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F304C9422BCA8D6400D1F3B2 /* Localizable.xcstrings */; };
+		F304C9482BCA8D9700D1F3B2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304C9472BCA8D9700D1F3B2 /* HomeView.swift */; };
+		F304C94A2BCA8DA900D1F3B2 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304C9492BCA8DA900D1F3B2 /* ServicesView.swift */; };
+		F304C94C2BCA8DAD00D1F3B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304C94B2BCA8DAD00D1F3B2 /* SettingsView.swift */; };
+		F304C94E2BCA8DED00D1F3B2 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F304C94D2BCA8DED00D1F3B2 /* TabBarView.swift */; };
+		F360E5BB2BCA8E7A00632F9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F360E5BA2BCA8E7A00632F9A /* GoogleService-Info.plist */; };
+		F360E5BE2BCA8F3600632F9A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F360E5BD2BCA8F3600632F9A /* StoreKit.framework */; };
+		F360E5C42BCA934D00632F9A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F360E5C32BCA934D00632F9A /* .gitignore */; };
+		F360E5C82BCA93C900632F9A /* Config-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F360E5C72BCA93C900632F9A /* Config-Debug.xcconfig */; };
+		F360E5CB2BCA93F400632F9A /* Config-Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F360E5CA2BCA93F400632F9A /* Config-Staging.xcconfig */; };
+		F360E5CD2BCA93FC00632F9A /* Config-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F360E5CC2BCA93FC00632F9A /* Config-Release.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F304C92C2BCA8C7B00D1F3B2 /* iDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F304C92F2BCA8C7B00D1F3B2 /* iDevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDevApp.swift; sourceTree = "<group>"; };
 		F304C9312BCA8C7B00D1F3B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F304C9332BCA8C7D00D1F3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F304C9352BCA8C7D00D1F3B2 /* iDev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iDev.entitlements; sourceTree = "<group>"; };
 		F304C9372BCA8C7D00D1F3B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F304C9402BCA8D5600D1F3B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F304C9422BCA8D6400D1F3B2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F304C9472BCA8D9700D1F3B2 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F304C9492BCA8DA900D1F3B2 /* ServicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		F304C94B2BCA8DAD00D1F3B2 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F304C94D2BCA8DED00D1F3B2 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		F360E5BA2BCA8E7A00632F9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F360E5BD2BCA8F3600632F9A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F360E5C12BCA925200632F9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F360E5C32BCA934D00632F9A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F360E5C72BCA93C900632F9A /* Config-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Config-Debug.xcconfig"; sourceTree = "<group>"; };
+		F360E5CA2BCA93F400632F9A /* Config-Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Config-Staging.xcconfig"; sourceTree = "<group>"; };
+		F360E5CC2BCA93FC00632F9A /* Config-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Config-Release.xcconfig"; sourceTree = "<group>"; };
+		F360E5D12BCA94DC00632F9A /* iDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = iDev.app; path = /Users/bekroz/Desktop/iDev/build/Debug/iDev.app; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F360E5BE2BCA8F3600632F9A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,25 +63,25 @@
 			isa = PBXGroup;
 			children = (
 				F304C92E2BCA8C7B00D1F3B2 /* iDev */,
-				F304C92D2BCA8C7B00D1F3B2 /* Products */,
+				F360E5BC2BCA8F3600632F9A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		F304C92D2BCA8C7B00D1F3B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F304C92C2BCA8C7B00D1F3B2 /* iDev.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F304C92E2BCA8C7B00D1F3B2 /* iDev */ = {
 			isa = PBXGroup;
 			children = (
+				F360E5C12BCA925200632F9A /* Info.plist */,
+				F360E5BA2BCA8E7A00632F9A /* GoogleService-Info.plist */,
 				F304C92F2BCA8C7B00D1F3B2 /* iDevApp.swift */,
 				F304C9312BCA8C7B00D1F3B2 /* ContentView.swift */,
+				F360E5C62BCA93BF00632F9A /* Configs */,
+				F360E5C52BCA939D00632F9A /* Secrets */,
+				F304C9442BCA8D6E00D1F3B2 /* Main */,
+				F304C9402BCA8D5600D1F3B2 /* LaunchScreen.storyboard */,
+				F304C9422BCA8D6400D1F3B2 /* Localizable.xcstrings */,
 				F304C9332BCA8C7D00D1F3B2 /* Assets.xcassets */,
 				F304C9352BCA8C7D00D1F3B2 /* iDev.entitlements */,
+				F360E5C32BCA934D00632F9A /* .gitignore */,
 				F304C9362BCA8C7D00D1F3B2 /* Preview Content */,
 			);
 			path = iDev;
@@ -67,6 +93,42 @@
 				F304C9372BCA8C7D00D1F3B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F304C9442BCA8D6E00D1F3B2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F304C94D2BCA8DED00D1F3B2 /* TabBarView.swift */,
+				F304C9472BCA8D9700D1F3B2 /* HomeView.swift */,
+				F304C9492BCA8DA900D1F3B2 /* ServicesView.swift */,
+				F304C94B2BCA8DAD00D1F3B2 /* SettingsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F360E5BC2BCA8F3600632F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F360E5BD2BCA8F3600632F9A /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F360E5C52BCA939D00632F9A /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
+		F360E5C62BCA93BF00632F9A /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F360E5C72BCA93C900632F9A /* Config-Debug.xcconfig */,
+				F360E5CA2BCA93F400632F9A /* Config-Staging.xcconfig */,
+				F360E5CC2BCA93FC00632F9A /* Config-Release.xcconfig */,
+			);
+			path = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,7 +148,7 @@
 			);
 			name = iDev;
 			productName = iDev;
-			productReference = F304C92C2BCA8C7B00D1F3B2 /* iDev.app */;
+			productReference = F360E5D12BCA94DC00632F9A /* iDev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +175,7 @@
 				Base,
 			);
 			mainGroup = F304C9232BCA8C7B00D1F3B2;
-			productRefGroup = F304C92D2BCA8C7B00D1F3B2 /* Products */;
+			productRefGroup = F304C9232BCA8C7B00D1F3B2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -128,7 +190,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F304C9382BCA8C7D00D1F3B2 /* Preview Assets.xcassets in Resources */,
+				F304C9432BCA8D6400D1F3B2 /* Localizable.xcstrings in Resources */,
+				F304C9412BCA8D5600D1F3B2 /* LaunchScreen.storyboard in Resources */,
+				F360E5BB2BCA8E7A00632F9A /* GoogleService-Info.plist in Resources */,
 				F304C9342BCA8C7D00D1F3B2 /* Assets.xcassets in Resources */,
+				F360E5C42BCA934D00632F9A /* .gitignore in Resources */,
+				F360E5C82BCA93C900632F9A /* Config-Debug.xcconfig in Resources */,
+				F360E5CD2BCA93FC00632F9A /* Config-Release.xcconfig in Resources */,
+				F360E5CB2BCA93F400632F9A /* Config-Staging.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F304C94A2BCA8DA900D1F3B2 /* ServicesView.swift in Sources */,
 				F304C9322BCA8C7B00D1F3B2 /* ContentView.swift in Sources */,
+				F304C9482BCA8D9700D1F3B2 /* HomeView.swift in Sources */,
+				F304C94C2BCA8DAD00D1F3B2 /* SettingsView.swift in Sources */,
+				F304C94E2BCA8DED00D1F3B2 /* TabBarView.swift in Sources */,
 				F304C9302BCA8C7B00D1F3B2 /* iDevApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +222,7 @@
 /* Begin XCBuildConfiguration section */
 		F304C9392BCA8C7D00D1F3B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F360E5C72BCA93C900632F9A /* Config-Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -208,8 +282,149 @@
 			};
 			name = Debug;
 		};
-		F304C93A2BCA8C7D00D1F3B2 /* Release */ = {
+		F304C93A2BCA8C7D00D1F3B2 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F360E5CA2BCA93F400632F9A /* Config-Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Staging;
+		};
+		F304C93C2BCA8C7D00D1F3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDev/iDev.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDev/Preview Content\"";
+				DEVELOPMENT_TEAM = J2U3223ZY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iDev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iDev;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.idev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		F304C93D2BCA8C7D00D1F3B2 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = iDev/iDev.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iDev/Preview Content\"";
+				DEVELOPMENT_TEAM = J2U3223ZY4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iDev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iDev;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.idev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Staging;
+		};
+		F360E5CE2BCA949F00632F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F360E5CC2BCA93FC00632F9A /* Config-Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -261,7 +476,7 @@
 			};
 			name = Release;
 		};
-		F304C93C2BCA8C7D00D1F3B2 /* Debug */ = {
+		F360E5CF2BCA949F00632F9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -274,66 +489,33 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iDev/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iDev;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.iDev;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.idev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F304C93D2BCA8C7D00D1F3B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iDev/iDev.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iDev/Preview Content\"";
-				DEVELOPMENT_TEAM = J2U3223ZY4;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.iDev;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};
@@ -344,19 +526,21 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F304C9392BCA8C7D00D1F3B2 /* Debug */,
-				F304C93A2BCA8C7D00D1F3B2 /* Release */,
+				F304C93A2BCA8C7D00D1F3B2 /* Staging */,
+				F360E5CE2BCA949F00632F9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Staging;
 		};
 		F304C93B2BCA8C7D00D1F3B2 /* Build configuration list for PBXNativeTarget "iDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F304C93C2BCA8C7D00D1F3B2 /* Debug */,
-				F304C93D2BCA8C7D00D1F3B2 /* Release */,
+				F304C93D2BCA8C7D00D1F3B2 /* Staging */,
+				F360E5CF2BCA949F00632F9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Staging;
 		};
 /* End XCConfigurationList section */
 	};
