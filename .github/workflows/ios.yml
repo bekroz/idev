@@ -10,12 +10,12 @@ jobs:
 
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: "3.3"
         bundler-cache: true
 
     - name: Cache Fastlane
@@ -25,18 +25,21 @@ jobs:
           key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gem-
+
     - name: Install dependencies
       run: |
+        cd fastlane
         gem install bundler
         bundle install --without=documentation
 
     - name: Build and Test
       run: |
-        xcodebuild -workspace YourWorkspace.xcworkspace -scheme YourScheme -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/YourApp.xcarchive
+        xcodebuild -resolvePackageDependencies
+        xcodebuild -project iDev.xcodeproj -scheme Release -sdk iphoneos -configuration AppStoreDistribution archive -archivePath $PWD/build/iDev.xcarchive
 
     - name: Export .ipa
       run: |
-        xcodebuild -exportArchive -archivePath $PWD/build/YourApp.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath $PWD/build
+        xcodebuild -exportArchive -archivePath $PWD/build/iDev.xcarchive -exportOptionsPlist ../Utils/export-options.plist -exportPath $PWD/build
 
     - name: Install Fastlane
       run: bundle exec fastlane init
