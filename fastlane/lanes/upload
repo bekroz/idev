@@ -1,0 +1,10 @@
+desc "Upload a new iOS build to Firebase App Distribution"
+  lane :upload do |options| 
+    firebase_app_distribution(
+      app: APP_ID,
+      ipa_path: IPA_PATH,
+      release_notes: RELEASE_NOTES,
+      groups_file: GROUPS_FILE
+    )
+    UI.message("✅ DISTRIBUTION finished successfully!")
+end

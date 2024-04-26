@@ -1,0 +1,14 @@
+default_platform(:ios)
+
+APP_NAME = ENV['APP_NAME']
+XCODEPROJ = "#{APP_NAME}.xcodeproj"
+SCHEME = "Release"
+
+platform :ios do
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+    increment_build_number(xcodeproj: XCODEPROJ)
+    build_app(scheme: SCHEME)
+    upload_to_testflight
+  end
+end

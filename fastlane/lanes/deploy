@@ -1,0 +1,7 @@
+desc "Deploy a new iOS build"
+  lane :deploy do |options| 
+    upgrade
+    build
+    upload
+    notify
+end

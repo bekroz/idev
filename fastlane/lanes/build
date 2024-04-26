@@ -1,0 +1,11 @@
+desc "Generate a new iOS build"
+  lane :build do |options| 
+    gym(
+      xcargs: "-allowProvisioningUpdates",
+      include_symbols: true,
+      include_bitcode: true,
+      output_directory: OUTPUT_DIR,
+      output_name: OUTPUT_NAME,
+    )
+    UI.message("✅ BUILD finished successfully!")
+end

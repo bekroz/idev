@@ -1,0 +1,9 @@
+desc "Notify Telegram about new build"
+lane :notify do
+    telegram(
+     token: TG_BOT_TOKEN,
+     text: TG_IOS_TEXT,
+     chat_id: TG_CHAT_ID
+    )
+UI.message("✅ NOTIFICATION finished successfully!")
+end
