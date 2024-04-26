@@ -20,21 +20,8 @@
 	<string>development</string>
 	<key>com.apple.developer.fileprovider.testing-mode</key>
 	<true/>
-	<key>com.apple.developer.healthkit</key>
-	<true/>
-	<key>com.apple.developer.healthkit.access</key>
-	<array/>
-	<key>com.apple.developer.healthkit.background-delivery</key>
-	<true/>
 	<key>com.apple.developer.homekit</key>
 	<true/>
-	<key>com.apple.developer.icloud-container-identifiers</key>
-	<array/>
-	<key>com.apple.developer.icloud-services</key>
-	<array>
-		<string>CloudKit</string>
-		<string>CloudDocuments</string>
-	</array>
 	<key>com.apple.developer.in-app-payments</key>
 	<array>
 		<string>merchant.idev</string>
@@ -43,12 +30,6 @@
 	<true/>
 	<key>com.apple.developer.networking.multipath</key>
 	<true/>
-	<key>com.apple.developer.networking.slicing.appcategory</key>
-	<array>
-		<string>communication-9000</string>
-	</array>
-	<key>com.apple.developer.networking.slicing.trafficcategory</key>
-	<array/>
 	<key>com.apple.developer.networking.vpn.api</key>
 	<array>
 		<string>allow-vpn</string>
@@ -59,25 +40,15 @@
 	<array>
 		<string>$(TeamIdentifierPrefix)*</string>
 	</array>
-	<key>com.apple.developer.shared-with-you</key>
-	<true/>
 	<key>com.apple.developer.shared-with-you.collaboration</key>
 	<true/>
 	<key>com.apple.developer.siri</key>
 	<true/>
-	<key>com.apple.developer.ubiquity-container-identifiers</key>
-	<array/>
-	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
-	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.developer.user-fonts</key>
 	<array>
 		<string>app-usage</string>
 		<string>system-installation</string>
 	</array>
-	<key>com.apple.developer.usernotifications.communication</key>
-	<true/>
-	<key>com.apple.developer.usernotifications.time-sensitive</key>
-	<true/>
 	<key>com.apple.developer.weatherkit</key>
 	<true/>
 	<key>com.apple.external-accessory.wireless-configuration</key>
