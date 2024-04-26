@@ -1,13 +1,19 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "24 Issues" : {
+    "Add new service" : {
+
+    },
+    "Daily" : {
+
+    },
+    "Hello World!" : {
 
     },
     "Home" : {
 
     },
-    "HomeView" : {
+    "Monthly" : {
 
     },
     "Services" : {
@@ -17,6 +23,30 @@
 
     },
     "SettingsView" : {
+
+    },
+    "Some infographics" : {
+
+    },
+    "Summary" : {
+
+    },
+    "Terminal" : {
+
+    },
+    "TerminalView" : {
+
+    },
+    "Wakatime" : {
+
+    },
+    "Wakatime insights" : {
+
+    },
+    "Weekly" : {
+
+    },
+    "Welcome, iDev!" : {
 
     }
   },
