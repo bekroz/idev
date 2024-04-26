@@ -18,6 +18,10 @@ struct TabBarView: View {
                 .tabItem {
                     Label("Services", systemImage: "circle.hexagongrid.circle.fill")
                 }
+            TerminalView()
+                .tabItem {
+                    Label("Terminal", systemImage: "text.and.command.macwindow")
+                }
             SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
